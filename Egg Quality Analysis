@@ -1,0 +1,10 @@
+import numpy as np
+import pandas as np
+import matplotlib.pyplot as plt
+
+#Downloading, processing, and visualizing data.
+df = pd.read_csv('File_Path')
+df.head
+df.shape()
+df.describe()
+df.correlate
